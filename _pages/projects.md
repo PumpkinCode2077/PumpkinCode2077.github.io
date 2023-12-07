@@ -52,7 +52,7 @@ A 2D target chasing problem solving by JPS algorithm
 |<img src="/images/planning/CECfree.gif" width=300px/>|<img src="/images/planning/CEC1.gif" width=300px/>|
 
 ## Optimal Scene Graph Planning with Large Language Model Guidance
-<img src="/images/planning/room_door_toplogy.png" width=300px/>
+<img src="/images/planning/room_door_toplogy.png" width=600px/>
 
 ## Jackal Robot Experiment
 
