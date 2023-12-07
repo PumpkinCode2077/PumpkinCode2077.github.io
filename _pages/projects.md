@@ -6,8 +6,6 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
-# Projects
 Here are all the projects I done before by myself or collaborate with others, feel free to explore!
 
 - [Object Detection](#object-detection)
