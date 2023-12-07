@@ -29,12 +29,14 @@ A vision object detection task to find the blue bin in the pictures
 
 ### Task 2 Phone Detector
 A vision object detection task to find the phone in the pictures
+
 |Phone1|Phone2|
 |-|-|
 |<img src="/images/vision/phone1.png" width=300px/>|<img src="/images/vision/phone2.png" width=300px/>|
 
 ## Dynamic Programming
 A 2D Door-Key problem solved by dynamic programming, aims to find the optimal policy.
+
 |Single Door Scenario|Two Doors Scenario|
 |-|-|
 |<img src="/images/planning/doorkey1.gif" width=300px/>|<img src="/images/planning/doorkey3.gif" width=300px/>|
@@ -44,6 +46,7 @@ A 2D Door-Key problem solved by dynamic programming, aims to find the optimal po
 A 2D target chasing problem solving by JPS algorithm
 
 ## CEC Control
+
 |Free Space|Collision Aware|
 |-|-|
 |<img src="/images/planning/CECfree.gif" width=300px/>|<img src="/images/planning/CEC1.gif" width=300px/>|
@@ -52,6 +55,7 @@ A 2D target chasing problem solving by JPS algorithm
 <img src="/images/planning/room_door_toplogy.png" width=300px/>
 
 ## Jackal Robot Experiment
+
 |Experiments|
 |-|
 |Hector Mapping|
