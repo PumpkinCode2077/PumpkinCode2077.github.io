@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a full-time Algorithm Engineer in Self-Driving, Photographer,and Catman. Passion in UGV Robot motion planning, Navigation, and any other interesting topics. I hold a Master's degree in Electrical Engineering - Intelligence System, Robotic & Control in University of California, San Diego. I am also a formal research assistant in [Existential Robotic Lab(ERL)](http://erl.ucsd.edu/index.html) in UCSD, supervised by Prof. Nikolay Atanasov.
+I am a full-time Algorithm Engineer in Self-Driving, Photographer,and Catman. Passion in UGV Robot motion planning, Navigation, and any other interesting topics. I hold a Master's degree in Electrical Engineering - Intelligence System, Robotic & Control in University of California, San Diego. I am also a former research assistant in [Existential Robotic Lab(ERL)](http://erl.ucsd.edu/index.html) in UCSD, supervised by Prof. Nikolay Atanasov.
 
 Please feel free to explore the projects. 
 
