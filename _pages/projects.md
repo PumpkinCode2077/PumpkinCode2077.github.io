@@ -52,24 +52,26 @@ A 2D target chasing problem solving by JPS algorithm
 |<img src="/images/planning/CECfree.gif" width=300px/>|<img src="/images/planning/CEC1.gif" width=300px/>|
 
 ## Optimal Scene Graph Planning with Large Language Model Guidance
-<img src="/images/planning/room_door_toplogy.png" width=600px/>
+<img src="/images/planning/room_door_toplogy.png" width=800px/>
 
 ## Jackal Robot Experiment
-
-|Experiments|
-|-|
-|Hector Mapping|
-|<img src="/images/ERL/Hector1.gif" width=300px/>|
-|Frontier-based Exploration|
-|<img src="/images/ERL/Frontier1.gif" width=300px/>|
-|Coming soon ...|
+### Experiments
+|Hector Mapping|Frontier-based Exploration|
+|-|-|
+|<img src="/images/ERL/Hector1.gif" width=300px/>|<img src="/images/ERL/Frontier1.gif" width=300px/>|
+|Coming soon ...|  |
 
 ## Hybrid Astar Planner
-Aims to solve a narrow urban scenario's U-turn trajectory generation planning problem using Ackermann motion primitive with Hybrid A* planner.
+Generating a driveable U-turn curve with precise curvature constraints while ensuring the vehicle remains within
+lane boundaries is crucial for safety. This study proposes an approach using a search-based planning algorithm combined with a non-holonomic vehicle motion model. Hybridizing the Ackermann-drive motion model into the A* planner’s expansion step enables the retention of optimality, and ensures safety and comfort constraints.
 
-<img src="/files/HybridAstar_gif1.gif" width=300px/>
+|Animation|Ackermann-Drive Kinematic Model|
+|-|-|
+|<img src="/files/HybridAstar_gif1.gif" width=400px/>|<img src="/images/planning/Ackermann.pdf" width=400px>|
 
 ## Vector Map Fusion
-The module aims to fuse the multi-frame MapTR prediction result for downstream autonomous vehilce planning usage.
+The module aims to fuse the multi-frames MapTR prediction result for downstream autonomous vehilce planning usage.
 
-<img src="/files/fusion_gif1-1.gif" width=400px/>
+|Fusion Animation|Errors|
+|-|-|
+|<img src="/files/fusion_gif1-1.gif" width=500px/>|<img src="/images/planning/weight100.png" width=300px>|
