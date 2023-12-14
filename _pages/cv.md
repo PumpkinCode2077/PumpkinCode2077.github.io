@@ -9,13 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
+
 Education
 ======
-* B.S. in Electrical Engineering, Arizona State University, 2021
 * M.S. in Electrical and Computer Engineering, University of California, San Diego, 2023
+* B.S. in Electrical Engineering, Arizona State University, 2021
 
 Experience
 ======
+[Shusen Lin's Resume](/files/Shusen_Resume.pdf)
 * July 2023 - Present: Algorithm Engineer
   * Ruqi Mobility, Guangzhou
   * Department: Intelligence Driving Tools
@@ -23,24 +25,13 @@ Experience
 * June 2022 - June 2023: Research Assistant
   * University of California, San Diego
   * Duties included: ROS, UGV Robot, Motion Planning
-  * Supervisor: Prof. Nikolay Atanasov
+  * Supervisor: Dr. Nikolay Atanasov
 
 * Spring 2021: Teaching Assistant
   * Arizona State University
   * Course: Signal and System 
-  * Professor: Prof. Deirdre Meldrum
+  * Professor: Dr. Deirdre Meldrum
   
-Skills
-======
-* Robot
-  * ROS
-  * Gazebo
-  * Rviz
-* Programming
-  * C++
-  * Python
-  * Matlab
-  * Verilog
 
 <!-- Publications
 ======
