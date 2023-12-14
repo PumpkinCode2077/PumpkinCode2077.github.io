@@ -56,6 +56,7 @@ A 2D target chasing problem solving by JPS algorithm
 
 ## Jackal Robot Experiment
 ### Experiments
+
 |Hector Mapping|Frontier-based Exploration|
 |-|-|
 |<img src="/images/ERL/Hector1.gif" width=300px/>|<img src="/images/ERL/Frontier1.gif" width=300px/>|
