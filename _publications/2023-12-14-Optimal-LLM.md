@@ -15,12 +15,7 @@ This work aims to leverage these new capabilities with an efficient task plannin
 
 [Download paper](https://arxiv.org/pdf/2309.09182.pdf)
 
-## Citation: 
-
-Zhirui Dai, Arash Asgharivaskasi, Thai Duong, <b>Shusen Lin</b>, Maria-Elizabeth Tzes, George Pappas, Nikolay Atanasov. (2023). Optimal Scene Graph
-Planning with Large Language Model Guidance. ArXiv. /abs/2309.09182 
-
-### BibTex
+## BibTex
 
 ```
 @misc{dai2023optimal,
