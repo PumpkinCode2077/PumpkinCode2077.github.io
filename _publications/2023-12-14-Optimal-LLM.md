@@ -6,7 +6,7 @@ excerpt: 'This work aims to leverage these new capabilities with an efficient ta
 date: 2023-09-17
 venue: 'Arxiv'
 paperurl: 'https://arxiv.org/abs/2309.09182'
-citation: "Zhirui Dai, Arash Asgharivaskasi, Thai Duong, <b>Shusen Lin</b>, Maria-Elizabeth Tzes, George Pappas, Nikolay Atanasov (2023)."
+citation: "Zhirui Dai, Arash Asgharivaskasi, Thai Duong, <b>Shusen Lin</b>, Maria-Elizabeth Tzes, George Pappas, Nikolay Atanasov "
 ---
 
 <img src="/files/LLM optimal/LLM1.png" width=800px/>
