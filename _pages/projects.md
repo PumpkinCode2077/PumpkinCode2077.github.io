@@ -55,6 +55,7 @@ A 2D target chasing problem solving by JPS algorithm
 <img src="/images/planning/room_door_toplogy.png" width=800px/> -->
 
 ## ERL Jackal Robot Experiment
+
 |||
 |-|-|
 |Hector Mapping|Frontier-based Exploration|
@@ -71,7 +72,7 @@ lane boundaries is crucial for safety. This study proposes an approach using a s
 
 |Animation|Ackermann-Drive Kinematic Model|
 |-|-|
-|<img src="/files/HybridAstar_gif1.gif" width=400px/>|<img src="/images/planning/Ackermann.pdf" width=400px>|
+|<img src="/files/HybridAstar_gif1.gif" width=400px/>|<img src="/images/planning/ackermann.png" width=400px>|
 
 ## Vector Map Fusion
 The module aims to fuse the multi-frames MapTR prediction result for downstream autonomous vehilce planning usage.
