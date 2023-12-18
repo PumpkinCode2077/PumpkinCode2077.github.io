@@ -18,7 +18,7 @@ Here are all the projects I done before by myself or collaborate with others, fe
 - [ROS Jackal Robot](#jackal-robot-experiment)
 
 ## Object Detection
-### Task 1 Bin Detector
+### Bin Detector with Bayes Filter
 A vision object detection task to find the blue bin in the pictures
 
 |Detection Box|Mask|
@@ -27,7 +27,7 @@ A vision object detection task to find the blue bin in the pictures
 |<img src="/images/vision/0065_box.png" width=300px/>|<img src="/images/vision/0065_mask.png" width=300px/>|
 |<img src="/images/vision/0067_box.png" width=300px/>|<img src="/images/vision/0067_mask.png" width=300px/>|
 
-### Task 2 Phone Detector
+### Phone Detector with SVM
 A vision object detection task to find the phone in the pictures
 
 |Phone1|Phone2|
@@ -51,16 +51,19 @@ A 2D target chasing problem solving by JPS algorithm
 |-|-|
 |<img src="/images/planning/CECfree.gif" width=300px/>|<img src="/images/planning/CEC1.gif" width=300px/>|
 
-## Optimal Scene Graph Planning with Large Language Model Guidance
-<img src="/images/planning/room_door_toplogy.png" width=800px/>
+<!-- ## Optimal Scene Graph Planning with Large Language Model Guidance
+<img src="/images/planning/room_door_toplogy.png" width=800px/> -->
 
-## Jackal Robot Experiment
-### Experiments
-
-|Hector Mapping|Frontier-based Exploration|
+## ERL Jackal Robot Experiment
+|||
 |-|-|
-|<img src="/images/ERL/Hector1.gif" width=300px/>|<img src="/images/ERL/Frontier1.gif" width=300px/>|
-|Coming soon ...|  |
+|Hector Mapping|Frontier-based Exploration|
+|<img src="/images/ERL/hector_gif.gif" width=400px/>|<img src="/images/ERL/Frontier_gif.gif" width=400px/>|
+|LIMO-3D SLAM with Ouster1-32|LIMO-3D SLAM with Ouster1-32|
+|<img src="/images/ERL/Limo3D_gif.gif" width=400px/>|<img src="/images/ERL/Limo3D_pic.png" width=400px/>|
+|TARE Planner in Jackal|iSDDF Planner in Jackal|
+|<img src="/images/ERL/TARE_gif.gif" width=400px/>|<img src="/images/ERL/SDDF_gif.gif" width=400px/>|
+
 
 ## Hybrid Astar Planner
 Generating a driveable U-turn curve with precise curvature constraints while ensuring the vehicle remains within
