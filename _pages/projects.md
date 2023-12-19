@@ -37,13 +37,13 @@ lane boundaries is crucial for safety. This study proposes an approach using a s
 |-|-|
 |<img src="/files/HybridAstar_gif1.gif" width=400px/>|<img src="/images/planning/ackermann.png" width=400px>|
 
-## Vector Map Fusion
+## Vectorized Map Fusion
 The module aims to fuse the multi-frames MapTR prediction result for downstream autonomous vehilce planning usage.
 
-|Fusion Animation|Errors|
-|-|-|
-|<img src="/files/fusion_gif1-1.gif" width=500px/>|<img src="/images/planning/weight100.png" width=300px>|
-
+|Multi-Frames Fusion|
+|-|
+|<img src="/files/fusion_gif1-1.gif" width=600px/>|
+|<img src="/images/vector map/Fusion_error_gif.gif" width=600px/>|
 
 ## Object Detection
 ### Bin Detector with Bayes Filter
