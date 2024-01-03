@@ -70,7 +70,7 @@ A 2D Door-Key problem solved by dynamic programming, aims to find the optimal po
 |Single Door Scenario|Two Doors Scenario|
 |-|-|
 |<img src="/images/planning/doorkey1.gif" width=400px/>|<img src="/images/planning/doorkey3.gif" width=400px/>|
-|<img src="/images/planning/doorkey2.gif" width=4500px/>|<img src="/images/planning/doorkey4.gif" width=400px/>|
+|<img src="/images/planning/doorkey2.gif" width=400px/>|<img src="/images/planning/doorkey4.gif" width=400px/>|
 
 ## Jump Point Search Algorithm
 A 2D target chasing problem solving by JPS algorithm
