@@ -42,9 +42,10 @@ The module aims to fuse the multi-frame MapTR prediction result for downstream a
 
 |Multi-Frames Fusion|
 |-|
-|<img src="/images/vector map/Fusion_score.mp4" width=1000px/>|
+|<img src="/images/vector map/fusion_score.gif" width=1000px/>|
+
 <!-- |<img src="/files/fusion_gif1-1.gif" width=600px/>|
-|<img src="/images/vector map/Fusion_error_gif.gif" width=600px/>| -->
+|<img src="/images/vector map/Fusion_error_gif.gif" width=600px/>| --> 
 
 ## Object Detection
 ### Bin Detector with Bayes Filter
@@ -52,24 +53,24 @@ A vision object detection task to find the blue bin in the pictures
 
 |Detection Box|Mask|
 |-|-|
-|<img src="/images/vision/0061_box.png" width=500px/>|<img src="/images/vision/0061_mask.png" width=500px/>|
-|<img src="/images/vision/0065_box.png" width=500px/>|<img src="/images/vision/0065_mask.png" width=500px/>|
-|<img src="/images/vision/0067_box.png" width=500px/>|<img src="/images/vision/0067_mask.png" width=500px/>|
+|<img src="/images/vision/0061_box.png" width=400px/>|<img src="/images/vision/0061_mask.png" width=400px/>|
+|<img src="/images/vision/0065_box.png" width=400px/>|<img src="/images/vision/0065_mask.png" width=400px/>|
+|<img src="/images/vision/0067_box.png" width=400px/>|<img src="/images/vision/0067_mask.png" width=400px/>|
 
 ### Phone Detector with SVM
 A vision object detection task to find the phone in the pictures
 
 |Phone1|Phone2|
 |-|-|
-|<img src="/images/vision/phone1.png" width=500px/>|<img src="/images/vision/phone2.png" width=500px/>|
+|<img src="/images/vision/phone1.png" width=400px/>|<img src="/images/vision/phone2.png" width=400px/>|
 
 ## Dynamic Programming
 A 2D Door-Key problem solved by dynamic programming, aims to find the optimal policy.
 
 |Single Door Scenario|Two Doors Scenario|
 |-|-|
-|<img src="/images/planning/doorkey1.gif" width=500px/>|<img src="/images/planning/doorkey3.gif" width=500px/>|
-|<img src="/images/planning/doorkey2.gif" width=500px/>|<img src="/images/planning/doorkey4.gif" width=500px/>|
+|<img src="/images/planning/doorkey1.gif" width=400px/>|<img src="/images/planning/doorkey3.gif" width=400px/>|
+|<img src="/images/planning/doorkey2.gif" width=4500px/>|<img src="/images/planning/doorkey4.gif" width=400px/>|
 
 ## Jump Point Search Algorithm
 A 2D target chasing problem solving by JPS algorithm
@@ -78,7 +79,7 @@ A 2D target chasing problem solving by JPS algorithm
 
 |Free Space|Collision Aware|
 |-|-|
-|<img src="/images/planning/CECfree.gif" width=500px/>|<img src="/images/planning/CEC1.gif" width=500px/>|
+|<img src="/images/planning/CECfree.gif" width=400px/>|<img src="/images/planning/CEC1.gif" width=400px/>|
 
 <!-- ## Optimal Scene Graph Planning with Large Language Model Guidance
 <img src="/images/planning/room_door_toplogy.png" width=800px/> -->
