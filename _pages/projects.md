@@ -22,11 +22,11 @@ Here are all the projects I done before by myself or collaborate with others, fe
 |||
 |-|-|
 |Hector Mapping|Frontier-based Exploration|
-|<img src="/images/ERL/hector_gif.gif" width=400px/>|<img src="/images/ERL/Frontier_gif.gif" width=400px/>|
+|<img src="/images/ERL/hector_gif.gif" width=500px/>|<img src="/images/ERL/Frontier_gif.gif" width=500px/>|
 |LIMO-3D SLAM with Ouster1-32|LIMO-3D SLAM with Ouster1-32|
-|<img src="/images/ERL/Limo3D_gif.gif" width=400px/>|<img src="/images/ERL/Limo3D_pic.png" width=400px/>|
+|<img src="/images/ERL/Limo3D_gif.gif" width=500px/>|<img src="/images/ERL/Limo3D_pic.png" width=500px/>|
 |TARE Planner in Jackal|iSDDF Planner in Jackal|
-|<img src="/images/ERL/TARE_gif.gif" width=400px/>|<img src="/images/ERL/SDDF_gif.gif" width=400px/>|
+|<img src="/images/ERL/TARE_gif.gif" width=500px/>|<img src="/images/ERL/SDDF_gif.gif" width=500px/>|
 
 
 ## Hybrid Astar Planner
@@ -35,15 +35,16 @@ lane boundaries is crucial for safety. This study proposes an approach using a s
 
 |Animation|Ackermann-Drive Kinematic Model|
 |-|-|
-|<img src="/files/HybridAstar_gif1.gif" width=400px/>|<img src="/images/planning/ackermann.png" width=400px>|
+|<img src="/files/HybridAstar_gif1.gif" width=500px/>|<img src="/images/planning/ackermann.png" width=500px>|
 
 ## Vectorized Map Fusion
-The module aims to fuse the multi-frames MapTR prediction result for downstream autonomous vehilce planning usage.
+The module aims to fuse the multi-frame MapTR prediction result for downstream autonomous vehicle planning usage. The video presents the real-time road boundaries and centerlines matching and fusion within the multi-frame result. The table shows the total error in meters of single-frame prediction and post-process separately. The black polylines is the HD map's ground truth.
 
 |Multi-Frames Fusion|
 |-|
-|<img src="/files/fusion_gif1-1.gif" width=600px/>|
-|<img src="/images/vector map/Fusion_error_gif.gif" width=600px/>|
+|<img src="/images/vector map/Fusion_score.mp4" width=1000px/>|
+<!-- |<img src="/files/fusion_gif1-1.gif" width=600px/>|
+|<img src="/images/vector map/Fusion_error_gif.gif" width=600px/>| -->
 
 ## Object Detection
 ### Bin Detector with Bayes Filter
@@ -51,24 +52,24 @@ A vision object detection task to find the blue bin in the pictures
 
 |Detection Box|Mask|
 |-|-|
-|<img src="/images/vision/0061_box.png" width=300px/>|<img src="/images/vision/0061_mask.png" width=300px/>|
-|<img src="/images/vision/0065_box.png" width=300px/>|<img src="/images/vision/0065_mask.png" width=300px/>|
-|<img src="/images/vision/0067_box.png" width=300px/>|<img src="/images/vision/0067_mask.png" width=300px/>|
+|<img src="/images/vision/0061_box.png" width=500px/>|<img src="/images/vision/0061_mask.png" width=500px/>|
+|<img src="/images/vision/0065_box.png" width=500px/>|<img src="/images/vision/0065_mask.png" width=500px/>|
+|<img src="/images/vision/0067_box.png" width=500px/>|<img src="/images/vision/0067_mask.png" width=500px/>|
 
 ### Phone Detector with SVM
 A vision object detection task to find the phone in the pictures
 
 |Phone1|Phone2|
 |-|-|
-|<img src="/images/vision/phone1.png" width=300px/>|<img src="/images/vision/phone2.png" width=300px/>|
+|<img src="/images/vision/phone1.png" width=500px/>|<img src="/images/vision/phone2.png" width=500px/>|
 
 ## Dynamic Programming
 A 2D Door-Key problem solved by dynamic programming, aims to find the optimal policy.
 
 |Single Door Scenario|Two Doors Scenario|
 |-|-|
-|<img src="/images/planning/doorkey1.gif" width=300px/>|<img src="/images/planning/doorkey3.gif" width=300px/>|
-|<img src="/images/planning/doorkey2.gif" width=300px/>|<img src="/images/planning/doorkey4.gif" width=300px/>|
+|<img src="/images/planning/doorkey1.gif" width=500px/>|<img src="/images/planning/doorkey3.gif" width=500px/>|
+|<img src="/images/planning/doorkey2.gif" width=500px/>|<img src="/images/planning/doorkey4.gif" width=500px/>|
 
 ## Jump Point Search Algorithm
 A 2D target chasing problem solving by JPS algorithm
@@ -77,7 +78,7 @@ A 2D target chasing problem solving by JPS algorithm
 
 |Free Space|Collision Aware|
 |-|-|
-|<img src="/images/planning/CECfree.gif" width=300px/>|<img src="/images/planning/CEC1.gif" width=300px/>|
+|<img src="/images/planning/CECfree.gif" width=500px/>|<img src="/images/planning/CEC1.gif" width=500px/>|
 
 <!-- ## Optimal Scene Graph Planning with Large Language Model Guidance
 <img src="/images/planning/room_door_toplogy.png" width=800px/> -->
