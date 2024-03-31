@@ -40,9 +40,9 @@ lane boundaries is crucial for safety. This study proposes an approach using a s
 ## Vectorized Map Fusion
 The module aims to fuse the multi-frame MapTR prediction result for downstream autonomous vehicle planning usage. The video presents the real-time road boundaries and centerlines matching and fusion within the multi-frame result. The table shows the total error in meters of single-frame prediction and post-process separately. The black polylines is the HD map's ground truth.
 
-|Multi-Frames Fusion|
-|-|
-|<img src="/images/vector map/fusion_score.gif" width=1000px/>|
+|Multi-Frames Fusion|Skeleton Sensing Split|
+|-|-|
+|<img src="/images/vector map/fusion_score.gif" width=1000px/>|<img src="/images/vector map/SSS_demo1-1.gif">|
 
 <!-- |<img src="/files/fusion_gif1-1.gif" width=600px/>|
 |<img src="/images/vector map/Fusion_error_gif.gif" width=600px/>| --> 
