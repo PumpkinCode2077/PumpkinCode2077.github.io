@@ -8,25 +8,24 @@ redirect_from:
 ---
 Here are all the projects I done before by myself or collaborate with others, feel free to explore!
 
-- [Object Detection](#object-detection)
-- [Jump Point Search](#jump-point-search-algorithm)
 - [Hybrid A* Planner](#hybrid-astar-planner)
+- [Jump Point Search](#jump-point-search-algorithm)
+
 - [Vector Map Fusion](#vector-map-fusion)
 - [Dynamic Programming](#dynamic-programming)
 - [CEC Control](#cec-control)
-- [LLM Planning](#optimal-scene-graph-planning-with-large-language-model-guidance)
+<!-- - [LLM Planning](#optimal-scene-graph-planning-with-large-language-model-guidance) -->
 - [ROS Jackal Robot](#jackal-robot-experiment)
+- [Object Detection](#object-detection)
 
-## ERL Jackal Robot Experiment
+## Vectorized Map Fusion
+The module aims to fuse the multi-frame MapTR prediction result for downstream autonomous vehicle planning usage. The video presents the real-time road boundaries and centerlines matching and fusion within the multi-frame result. The table shows the total error in meters of single-frame prediction and post-process separately. The black polylines is the HD map's ground truth.
 
-|||
+<img src="/files/Crowd-Sourced Map Updating Pipeline.pdf" width=800px/>
+
+<!-- |Multi-Frames Fusion|Skeleton Sensing Split|
 |-|-|
-|Hector Mapping|Frontier-based Exploration|
-|<img src="/images/ERL/hector_gif.gif" width=500px/>|<img src="/images/ERL/Frontier_gif.gif" width=500px/>|
-|LIMO-3D SLAM with Ouster1-32|LIMO-3D SLAM with Ouster1-32|
-|<img src="/images/ERL/Limo3D_gif.gif" width=500px/>|<img src="/images/ERL/Limo3D_pic.png" width=500px/>|
-|TARE Planner in Jackal|iSDDF Planner in Jackal|
-|<img src="/images/ERL/TARE_gif.gif" width=500px/>|<img src="/images/ERL/SDDF_gif.gif" width=500px/>|
+|<img src="/images/vector map/fusion_score.gif" width=1000px/>|<img src="/images/vector map/SSS_demo1-1.gif">| -->
 
 
 ## Hybrid Astar Planner
@@ -37,25 +36,31 @@ lane boundaries is crucial for safety. This study proposes an approach using a s
 |-|-|
 |<img src="/files/HybridAstar_gif1.gif" width=500px/>|<img src="/images/planning/ackermann.png" width=500px>|
 
-## Vectorized Map Fusion
-The module aims to fuse the multi-frame MapTR prediction result for downstream autonomous vehicle planning usage. The video presents the real-time road boundaries and centerlines matching and fusion within the multi-frame result. The table shows the total error in meters of single-frame prediction and post-process separately. The black polylines is the HD map's ground truth.
+## Jump Point Search Algorithm
+A 2D target chasing problem solving by JPS algorithm
 
-|Multi-Frames Fusion|Skeleton Sensing Split|
+## ERL Jackal Robot Experiment
+|||
 |-|-|
-|<img src="/images/vector map/fusion_score.gif" width=1000px/>|<img src="/images/vector map/SSS_demo1-1.gif">|
+|Hector Mapping|Frontier-based Exploration|
+|<img src="/images/ERL/hector_gif.gif" width=500px/>|<img src="/images/ERL/Frontier_gif.gif" width=500px/>|
+|LIMO-3D SLAM with Ouster1-32|LIMO-3D SLAM with Ouster1-32|
+|<img src="/images/ERL/Limo3D_gif.gif" width=500px/>|<img src="/images/ERL/Limo3D_pic.png" width=500px/>|
+|TARE Planner in Jackal|iSDDF Planner in Jackal|
+|<img src="/images/ERL/TARE_gif.gif" width=500px/>|<img src="/images/ERL/SDDF_gif.gif" width=500px/>|
 
 <!-- |<img src="/files/fusion_gif1-1.gif" width=600px/>|
 |<img src="/images/vector map/Fusion_error_gif.gif" width=600px/>| --> 
 
 ## Object Detection
-### Bin Detector with Bayes Filter
+<!-- ### Bin Detector with Bayes Filter
 A vision object detection task to find the blue bin in the pictures
 
 |Detection Box|Mask|
 |-|-|
 |<img src="/images/vision/0061_box.png" width=400px/>|<img src="/images/vision/0061_mask.png" width=400px/>|
 |<img src="/images/vision/0065_box.png" width=400px/>|<img src="/images/vision/0065_mask.png" width=400px/>|
-|<img src="/images/vision/0067_box.png" width=400px/>|<img src="/images/vision/0067_mask.png" width=400px/>|
+|<img src="/images/vision/0067_box.png" width=400px/>|<img src="/images/vision/0067_mask.png" width=400px/>| -->
 
 ### Phone Detector with SVM
 A vision object detection task to find the phone in the pictures
@@ -72,8 +77,7 @@ A 2D Door-Key problem solved by dynamic programming, aims to find the optimal po
 |<img src="/images/planning/doorkey1.gif" width=400px/>|<img src="/images/planning/doorkey3.gif" width=400px/>|
 |<img src="/images/planning/doorkey2.gif" width=400px/>|<img src="/images/planning/doorkey4.gif" width=400px/>|
 
-## Jump Point Search Algorithm
-A 2D target chasing problem solving by JPS algorithm
+
 
 ## CEC Control
 
