@@ -21,7 +21,7 @@ Here are all the projects I done before by myself or collaborate with others, fe
 ## Vectorized Map Fusion
 The module aims to fuse the multi-frame MapTR prediction result for downstream autonomous vehicle planning usage. The video presents the real-time road boundaries and centerlines matching and fusion within the multi-frame result. The table shows the total error in meters of single-frame prediction and post-process separately. The black polylines is the HD map's ground truth.
 
-<img src="/files/Crowd-Sourced Map Updating Pipeline.pdf" width=800px/>
+<img src="/images/vector map/map updating pipeline png ver.png" width=800px/>
 
 <!-- |Multi-Frames Fusion|Skeleton Sensing Split|
 |-|-|
