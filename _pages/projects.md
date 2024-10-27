@@ -39,8 +39,9 @@ lane boundaries is crucial for safety. This study proposes an approach using a s
 ## Jump Point Search Algorithm
 A 2D target chasing problem solving by JPS algorithm
 
-## ERL Jackal Robot Experiment
-|||
+## UGV Robot Experiments
+
+|Real-time Manipulation in Rviz Visualization||
 |-|-|
 |Hector Mapping|Frontier-based Exploration|
 |<img src="/images/ERL/hector_gif.gif" width=500px/>|<img src="/images/ERL/Frontier_gif.gif" width=500px/>|
