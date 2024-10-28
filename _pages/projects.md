@@ -51,7 +51,7 @@ Autonomous vehicles face challenges navigating complex urban roads, particularly
 In our experiments, a maximum curvature of 0.1740 is the best among the four methods, and the curvature pass rate is greatly improved to 81.48%. In terms of the maximum curvature change and the maximum curvature change $\sigma$, both are improved from the plain version. It is proved that our method can improve the curvature pass rate while maintaining a certain degree of smoothness, meeting the requirements of curvature and smoothness.
 
 <figure>
-  <img src="/images/planning map/curvature_table.png" width=1000px/>
+  <img src="/images/planning/curvature_table.png" width=1000px/>
   <center>
     <figcaption>statistic results with the experiments in 30 urban intersections</figcaption>
   </center>
