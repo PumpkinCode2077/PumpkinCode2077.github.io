@@ -65,11 +65,11 @@ A 2D target chasing problem solving by JPS algorithm
 |Real-time Manipulation in Rviz Visualization||
 |-|-|
 |Hector Mapping|Frontier-based Exploration|
-|<img src="/images/ERL/hector_gif.gif" width=500px/>|<img src="/images/ERL/Frontier_gif.gif" width=500px/>|
+|<img src="/images/ERL/hector_gif.gif" width=400px/>|<img src="/images/ERL/Frontier_gif.gif" width=400px/>|
 |LIMO-3D SLAM with Ouster1-32|LIMO-3D SLAM with Ouster1-32|
-|<img src="/images/ERL/Limo3D_gif.gif" width=500px/>|<img src="/images/ERL/Limo3D_pic.png" width=500px/>|
+|<img src="/images/ERL/Limo3D_gif.gif" width=400px/>|<img src="/images/ERL/Limo3D_pic.png" width=400px/>|
 |TARE Planner in Jackal|iSDDF Planner in Jackal|
-|<img src="/images/ERL/TARE_gif.gif" width=500px/>|<img src="/images/ERL/SDDF_gif.gif" width=500px/>|
+|<img src="/images/ERL/TARE_gif.gif" width=400px/>|<img src="/images/ERL/SDDF_gif.gif" width=400px/>|
 
 <!-- |<img src="/files/fusion_gif1-1.gif" width=600px/>|
 |<img src="/images/vector map/Fusion_error_gif.gif" width=600px/>| --> 
@@ -94,17 +94,16 @@ A vision object detection task to find the phone in the pictures
 ## Dynamic Programming
 A 2D Door-Key problem solved by dynamic programming, aims to find the optimal policy.
 
-|Single Door Scenario|Two Doors Scenario|
-|-|-|
-|<img src="/images/planning/doorkey1.gif" width=400px/>|<img src="/images/planning/doorkey3.gif" width=400px/>|
-|<img src="/images/planning/doorkey2.gif" width=400px/>|<img src="/images/planning/doorkey4.gif" width=400px/>|
+|Single Door Scenario||Two Doors Scenario||
+|-|-|-|-|
+|<img src="/images/planning/doorkey1.gif" width=250px/>|<img src="/images/planning/doorkey3.gif" width=250px/>|<img src="/images/planning/doorkey2.gif" width=250px/>|<img src="/images/planning/doorkey4.gif" width=250px/>|
 
 
 ## CEC Control
 
 |Free Space|Collision Aware|
 |-|-|
-|<img src="/images/planning/CECfree.gif" width=400px/>|<img src="/images/planning/CEC1.gif" width=400px/>|
+|<img src="/images/planning/CECfree.gif" width=300px/>|<img src="/images/planning/CEC1.gif" width=300px/>|
 
 <!-- ## Optimal Scene Graph Planning with Large Language Model Guidance
 <img src="/images/planning/room_door_toplogy.png" width=800px/> -->
