@@ -11,6 +11,8 @@ citation: "Zhirui Dai, Arash Asgharivaskasi, Thai Duong, <b>Shusen Lin</b>, Mari
 
 <img src="/files/LLM optimal/LLM1.png" width=800px/>
 
+<b>Received by ICRA 2024, Yokohama</b>
+
 This work aims to leverage these new capabilities with an efficient task planning algorithm for hierarchical metric-semantic models. We consider a scene graph representation of the environment and utilize a large language model (LLM) to convert a natural language task into a linear temporal logic (LTL) automaton. Our main contribution is to enable optimal hierarchical LTL planning with LLM guidance over scene graphs. To achieve efficiency, we construct a hierarchical planning domain that captures the attributes and connectivity of the scene graph and the task automaton, and provide semantic guidance via an LLM heuristic function. To guarantee optimality, we design an LTL heuristic function that is provably consistent and supplements the potentially inadmissible LLM guidance in multi-heuristic planning.
 
 [Download paper](https://arxiv.org/pdf/2309.09182.pdf)
@@ -28,5 +30,5 @@ This work aims to leverage these new capabilities with an efficient task plannin
 }
 ```
 
-<i>Submitted to ICRA,  </i>2024.
+<i>Received by ICRA, Yokohama  </i>2024.
 

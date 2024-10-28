@@ -10,25 +10,38 @@ Here are all the projects I done before by myself or collaborate with others, fe
 
 - [Hybrid A* Planner](#hybrid-astar-planner)
 - [Jump Point Search](#jump-point-search-algorithm)
-
 - [Vector Map Fusion](#vector-map-fusion)
 - [Dynamic Programming](#dynamic-programming)
 - [CEC Control](#cec-control)
-<!-- - [LLM Planning](#optimal-scene-graph-planning-with-large-language-model-guidance) -->
 - [ROS Jackal Robot](#jackal-robot-experiment)
 - [Object Detection](#object-detection)
 
-## Vectorized Map Fusion
-The module aims to fuse the multi-frame MapTR prediction result for downstream autonomous vehicle planning usage. The video presents the real-time road boundaries and centerlines matching and fusion within the multi-frame result. The table shows the total error in meters of single-frame prediction and post-process separately. The black polylines is the HD map's ground truth.
+## Cloud-based Crowd-sourced Mapping for Mass-produced Models
+In the field of autonomous driving mapping, in addition to the traditional high-precision (HD) maps and real-time mapping that relies entirely on perception, a mainstream method is crowd-sourced mapping. By uploading the perception results of the vehicle side, multiple trips and a large amount of data are collected in the cloud for automatic aggregation to achieve a crowd-sourced map with high accuracy, low cost, and high freshness. Crowd-sourced maps can well assist downstream planning and control modules in autonomous driving.
 
-<img src="/images/vector map/map updating pipeline png ver.png" width=800px/>
+Our solution leverages the MapTR V2 model as a baseline for improvement. This trained model is adept at identifying ground elements, such as lane markings. Within the cloud module, my responsibilities include developing the incremental fitting module with multi-frame perception, the matching module of perception map and base maps, the variation detection module, and the automatic fusion module. Each of these modules plays a crucial role in our solution, contributing to its overall effectiveness.
 
-<!-- |Multi-Frames Fusion|Skeleton Sensing Split|
-|-|-|
-|<img src="/images/vector map/fusion_score.gif" width=1000px/>|<img src="/images/vector map/SSS_demo1-1.gif">| -->
+Among them, I designed a complete set of map evaluation and fusion system based on base map matching. This system can segment the new perception results based on the historical information of the base map and calculate the absolute mean error (MAE) and the mean relative error (MRE) of the lines to measure the perception quality. The detection result will be used as the input of map fusion, vital in determining the fusion confidence. 
+
+<figure>
+  <img src="/images/vector map/map updating pipeline png ver.png" width=800px/>
+  <figcaption>map evaluation and fusion system pipeline</figcaption>
+</figure>
+
+The variation results shown above are obtained from real experiments in Guangzhou's downtown. The scenario shows a complicated intersection mixing highway and city road. The right-hand side result is the fusion result achieved by automatic fusion and manual validation.
+
+Our work in perception model (Received by WACV 2025)
+-  [PrevPredMap: Exploring Temporal Modeling with Previous Predictions for Online Vectorized HD Map Construction](https://arxiv.org/abs/2407.17378)
+- my contributions involves in whole training data support and map vector result post-process
 
 
-## Hybrid Astar Planner
+## Hybrid A* Application in HD Map Intersection's U-turn Line Generation
+
+
+
+
+
+
 Generating a driveable U-turn curve with precise curvature constraints while ensuring the vehicle remains within
 lane boundaries is crucial for safety. This study proposes an approach using a search-based planning algorithm combined with a non-holonomic vehicle motion model. Hybridizing the Ackermann-drive motion model into the A* planner’s expansion step enables the retention of optimality, and ensures safety and comfort constraints.
 
