@@ -12,7 +12,9 @@ Education 教育经历
 * M.S. in Electrical and Computer Engineering, University of California, San Diego, USA, 2023
 * B.S. in Electrical Engineering, Arizona State University, USA, 2021
 * B.S. in Automation, Beijing University of Technology, China, 2018 (Transferred)
+
 ---
+
 * 加州大学圣地亚哥分校，电子与计算机工程硕士，2023
 * 亚利桑那州立大学，电子工程学士，2021
 * 北京工业大学，自动化本科，2018
