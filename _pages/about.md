@@ -8,7 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a full-time Algorithm Engineer of Autonomous Driving, Photographer, and Catman. Passion in UGV robot motion planning, navigation, perception and learning. I hold a Master's degree in Electrical Engineering - Intelligence System, Robotic & Control at University of California, San Diego. I am also a former research assistant in [Existential Robotic Lab(ERL)](http://erl.ucsd.edu/index.html), supervised by Prof. Nikolay Atanasov.
+I am a full-time Algorithm Engineer of Autonomous Driving. My research interests include crowd-sourced mapping, geometric algorithms, path planning, navigation, and artificial intelligence. I hold a Master's degree in Science - Intelligence System, Robotic & Control at University of California, San Diego. I am also a former research assistant in [Existential Robotic Lab(ERL)](http://erl.ucsd.edu/index.html), supervised by Prof. Nikolay Atanasov.
+
+---
+我目前是一名全职智驾算法工程师，主要的研究方向时众源建图、几何算法、路径规划、导航和人工智能。我在加州大学圣地亚哥分校获得了理学硕士学位，专业方向为智能系统、机器人和控制。曾在[Existential Robotic Lab(ERL)](http://erl.ucsd.edu/index.html)担任研究助理，导师为Nikolay Atanasov教授。
 
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
