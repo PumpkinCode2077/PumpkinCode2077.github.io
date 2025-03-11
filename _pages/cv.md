@@ -24,16 +24,12 @@ Experience 工作经历
 * July 2023 - Present $\quad$ Algorithm Engineer
   * Ruqi Mobility, Guangzhou
   * Department: Intelligence Driving Tools
-  * Keywords: Crowd-sourced Mapping, HD Map, Perception, GIS, C++, Python
-
-  <br>
+  * Keywords: Crowd-sourced Mapping, HD Map, BEV Perception, GIS, C++, Python
 
 * June 2022 - June 2023 $\quad$ Research Assistant
   * University of California, San Diego
   * Duties included: ROS, UGV Robot, Motion Planning, Path Planning
   * Supervisor: Dr. Nikolay Atanasov
-
-  <br>
 
 * Dec 2020 - May 2021 $\quad$ Teaching Assistant
   * Arizona State University
@@ -45,16 +41,12 @@ Experience 工作经历
 * 2023年7月 - 至今 $\quad$ 算法工程师
   * 如祺出行，广州
   * 部门: 智能驾驶工具
-  * 关键词: 众包地图, 高精地图, 感知, 地理信息系统, C++, Python
-
-  <br>
+  * 关键词: 众源地图, 高精地图, BEV感知, 地理信息系统, C++, Python
 
 * 2022年6月 - 2023年6月 $\quad$ 学生研究员
   * 加州大学圣地亚哥分校，ERL实验室
   * 导师: Dr. Nikolay Atanasov
   * 关键词: ROS, 地面无人车, 运动规划，路径规划
-
-  <br>
 
 * 2020年12月 - 2021年5月 $\quad$ 本科助教
   * 亚利桑那州立大学

@@ -49,6 +49,18 @@ Our work in perception model (Received by WACV 2025)
 
 ## Crowd-sourced Mapping Intersection Automatic Construction 众源地图路口结构自动生成
 
+This is an automatic intersection construction solution based on crowd-sourced mapping design. Compared with traditional technologies, it can automatically construct the topology of urban intersections without relying on crowd-sourced trajectory big data. It generates a virtual turning reference line with drivability based on the turning information of the lanes, and uses curvature as the geometric constraint of the virtual reference line of the intersection. It assists the planning and control tasks of intelligent driving downstream.
+
+这是一种基于众源建图设计的自动化路口构建方案，相较传统技术，可以不依赖众源轨迹大数据，自动化的构建城市路口拓扑，并通过车道的转向信息，以曲率作为路口虚拟参考线几何约束，生成具有可行驶性的虚拟转弯掉头参考线，辅助智能驾驶下游的规划控制任务。
+
+<figure>
+  <img src="../images/intersection/pipeline.jpg" width=800px/>
+  <center>
+    <figcaption>Crowd-sourced Mapping Intersection Automatic Construction pipeline</figcaption>
+   </center> 
+</figure>
+
+
 |Intersection Crowd-sourced Trajectories 众源轨迹|Construction results 生成结果|
 |-|-|
 |<img src="../images/intersection/zhongyuan_3.png" width=400px/>|<img src="../images/intersection/zhongyuan_1.png" width=400px/>|
@@ -58,15 +70,15 @@ Our work in perception model (Received by WACV 2025)
 
 Autonomous vehicles face challenges navigating complex urban roads, particularly at intersections. The virtual line, e.g. the u-trun lines are used to represent the topology geometry assisting the downstream planning and control. The virtual lines in map usually have the strtic curvature requirement which the traditional curve generator cannot guareteen. This study novetlty proposes an approach using a search-based planning algorithm in curve generation. The main features are:
 
-1) The vehicle kinematic model uses constant speed and continuous integration to express the state transfer equation.
-2) The generated curve's global maximum curvature is guaranteed.
-3) Adaptive curve smooth parameters mechanism for lane scenario variation
+1. The vehicle kinematic model uses constant speed and continuous integration to express the state transfer equation.
+2. The generated curve's global maximum curvature is guaranteed.
+3. Adaptive curve smooth parameters mechanism for lane scenario variation
 
 自动驾驶车辆在复杂的城市道路上导航时面临挑战，特别是在交叉口。虚拟线，例如掉头线，用于表示拓扑几何，辅助下游规划和控制。地图中的虚拟线通常具有静态曲率要求，传统的曲线生成器无法保证。本研究提出了一种使用基于搜索的规划算法来生成曲线的方法。主要特点是：
 
-1) 车辆运动学模型使用恒定速度和连续积分来表示状态转移方程。
-2) 保证生成的曲线的全局最大曲率。
-3) 适应车道场景变化的曲线平滑参数机制
+1. 车辆运动学模型使用恒定速度和连续积分来表示状态转移方程。
+2. 保证生成的曲线的全局最大曲率。
+3. 适应车道场景变化的曲线平滑参数机制
 
 |Animation|Simplified Ackermann-Drive Kinematic Model|U-turn Scenario|
 |-|-|-|
